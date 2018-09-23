@@ -18,21 +18,21 @@
 
     <div class="row">
       <div class="card" style="width: 18rem; margin-right: 1rem;">
-        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <img class="card-img-top" src="/blocks/Title.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Titles</h5>
           <p class="card-text">We got the title you need.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div><div class="card" style="width: 18rem; margin-right: 1rem;">
-        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <img class="card-img-top" src="/blocks/Search.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Searches</h5>
           <p class="card-text">We do the searches you need.</p>
           <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div><div class="card" style="width: 18rem;">
-        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <img class="card-img-top" src="/blocks/Report.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Reports</h5>
           <p class="card-text">We write the reports you need.</p>
