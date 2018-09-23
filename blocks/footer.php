@@ -3,22 +3,20 @@
           <hr />
           <h4>About</h4>
           <p>
-            On Point Abstract was built to provide you with
-            the right abstraction information and the best
-            customer service. With our years of expertise 
-            and drive to make YOU happy, you can work with 
-            us in confidence.
+            OnPoint Abstracting provides full-service abstracting services to the entire State of Minnesota.  We pride ourselves in making you look good by providing professional, courteous and fast service. We ensure the fastest turnaround time 
           </p>
         </div>
         <div class="col-sm">
           <hr />
           <h4>Contact Us</h4>
           <p>
-            Phone: 612.636.2057 <br />
-            Email: <a href="mailto:info@onpointabstracting.com">info@onpointabstracting.com</a><br /><br />
+            Phone: +1.763.307.2497 <br />
+            Orders: <a href="mailto:orders@onpointabstracting.com">orders@onpointabstracting.com</a><br /><br />
             Address: <br />
-            123 Abc Street <br />
-            St. Paul, MN 12345<br />
+            1660 South Highway 100 <br />
+            Suite 500<br />
+            St. Louis Park, MN 55416<br />
+            Hours: 6AM to 6PM
           </p>
         </div>
         <div class="col-sm">
@@ -27,7 +25,6 @@
           <p>
             <a href="/index.php">Home</a><br />
             <a href="/services.php">Serivces</a><br />
-            <a href="/privacy.php">Privacy</a>
           </p>
         </div>
       </div>
