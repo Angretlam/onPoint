@@ -1,7 +1,7 @@
 <?php require('blocks/header.php'); ?>
 
     <div class="jumbotron" style="background-image: url('/blocks/Background_Tiles.png');">
-      <h1 class="display" style="color: white;">On Point Abstracting</h1>
+      <h1 class="display" style="color: white; ">On Point Abstracting</h1>
       <h4 style="color: white;">“OnPoint to deliver quality service”</h4>
     </div>
 
@@ -27,7 +27,7 @@
       </div>
       <div class="col-sm-4">
         <div class="card">
-          <img class="card-img-top" src="/blocks/Title.png" alt="Card image cap">
+          <img class="card-img-top"  style="width: 12rem; margin-left: auto; margin-right: auto;" src="/blocks/Title.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Titles</h5>
             <p class="card-text">We got the title you need.</p>
@@ -36,20 +36,11 @@
         </div>
         <br />
         <div class="card">
-          <img class="card-img-top" src="/blocks/Search.png" alt="Card image cap">
+          <img class="card-img-top" style="width: 12rem; margin-left: auto; margin-right: auto;" src="/blocks/Report.png" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Searches</h5>
-            <p class="card-text">We do the searches you need.</p>
-            <a href="/services.php" class="btn btn-primary">Search Services</a>
-          </div>
-        </div>
-        <br />
-        <div class="card">
-          <img class="card-img-top" src="/blocks/Report.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Reports</h5>
-            <p class="card-text">We write the reports you need.</p>
-            <a href="/services.php" class="btn btn-primary">Report Services</a>
+            <h5 class="card-title">Secure Portal</h5>
+            <p class="card-text">Secure services to protect your privacy.</p>
+            <a href="/services.php" class="btn btn-primary">Login / Register</a>
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
 <?php require('blocks/header.php'); ?>
 
-  <div class="jumbotron">
-    <h1 class="display-4">Services</h1>
-    <p class="lead">We offer great services at competitive prices.</p>
+  <div class="jumbotron" style="background-image: url('/blocks/Background_Tiles.png');">
+    <h1 class="display" style="color: white;">Services</h1>
+    <h4 style="color: white;">We offer great services at competitive prices.</h4>
   </div>
 
   <div class="container">
