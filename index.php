@@ -17,26 +17,34 @@
     </div>
 
     <div class="row">
-      <div class="card" style="width: 18rem; margin-right: 1rem;">
-        <img class="card-img-top" src="/blocks/Title.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Titles</h5>
-          <p class="card-text">We got the title you need.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/blocks/Title.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Titles</h5>
+            <p class="card-text">We got the title you need.</p>
+            <a href="/services.php" class="btn btn-primary">Title Services</a>
+          </div>
         </div>
-      </div><div class="card" style="width: 18rem; margin-right: 1rem;">
-        <img class="card-img-top" src="/blocks/Search.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Searches</h5>
-          <p class="card-text">We do the searches you need.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/blocks/Search.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Searches</h5>
+            <p class="card-text">We do the searches you need.</p>
+            <a href="/services.php" class="btn btn-primary">Search Services</a>
+          </div>
         </div>
-      </div><div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="/blocks/Report.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Reports</h5>
-          <p class="card-text">We write the reports you need.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img class="card-img-top" src="/blocks/Report.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Reports</h5>
+            <p class="card-text">We write the reports you need.</p>
+            <a href="/services.php" class="btn btn-primary">Report Services</a>
+          </div>
         </div>
       </div>
     </div>
