@@ -29,14 +29,14 @@
         <div class="card">
           <img class="card-img-top"  style="width: 12rem; margin-left: auto; margin-right: auto;" src="/blocks/Title.png" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Titles</h5>
-            <p class="card-text">We got the title you need.</p>
-            <a href="/services.php" class="btn btn-primary">Title Services</a>
+            <h5 class="card-title">Titles | Searches | Reports</h5>
+            <p class="card-text">Excellent services for all abstration needs.</p>
+            <a href="/services.php" class="btn btn-primary">See Services</a>
           </div>
         </div>
         <br />
         <div class="card">
-          <img class="card-img-top" style="width: 12rem; margin-left: auto; margin-right: auto;" src="/blocks/Report.png" alt="Card image cap">
+          <img class="card-img-top" style="width: 12rem; margin-left: auto; margin-right: auto;" src="/blocks/Lock.png" alt="Card image cap">
           <div class="card-body">
             <h5 class="card-title">Secure Portal</h5>
             <p class="card-text">Secure services to protect your privacy.</p>

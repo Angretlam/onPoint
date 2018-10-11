@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html5>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -30,8 +30,19 @@
           <li class="nav-item">
             <a class="nav-link" href="/services.php">Services</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/order.php">Order</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/register.php">Register</a>
+          </li>
         </ul>
       </div>
+      <form class="form-inline my-2 my-lg-0" method="POST" action="/utilities/login.php">
+        <input class="form-control mr-sm-2" type="email" placeholder="Email" required>
+        <input class="form-control mr-sm-2" type="password" placeholder="Password" required>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+      </form>
     </nav>
 
     <div class="container">

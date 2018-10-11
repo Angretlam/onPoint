@@ -6,38 +6,11 @@
   </div>
 
   <div class="container">
-    <form action="#submit_button">
-    <h4> Step 1: Enter the address </h4>
     <div class="row">
-        <div class="col-sm form-group">
-          <label for="Address_1">Address Line 1</label>
-          <input type="input" class="form-control" id="Address_1" placeholder="123 Abc Street" required>
-        </div>
+      <h4>Services Overview</h4>
+      <hr />
+      <p>We Guarantee a 48 hour turn around on all of our servives.</p>
     </div>
-    <div class="row">
-        <div class="col-sm form-group">
-          <label for="Address_2">Address Line 2</label>
-          <input type="input" class="form-control" id="Address_2" placeholder="Suite 101">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm form-group">
-          <label for="City">City</label>
-          <input type="input" class="form-control" id="City" placeholder="St. Paul" required>
-        </div>
-        <div class="col-sm form-group">
-          <label for="County">County</label>
-          <input type="input" class="form-control" id="County" placeholder="Ramsey" required>
-        </div>
-        <div class="col-sm form-group">
-          <label for="Zipcode">Zipcode</label>
-          <input type="number" class="form-control" id="Zipcode" placeholder="55000" required>
-        </div>
-    </div>
-
-    <hr />
-
-    <h4> Step 2: Select Services</h4>
     <div class="row">
       <div class="col-sm-4 bg-light border serviceCard" id="service1" onClick="selector('service1')">
         <h5>30 Year Title Services</h5>
@@ -108,64 +81,11 @@
         <p></p>
       </div>
     </div>
-    
-    <hr />
-    <h4> Step 3: Provide Contact Information </h4>
+    <br />
     <div class="row">
-      <div class="col-sm form-group">
-        <label for="Name">Name</label>
-        <input type="input" class="form-control" id="Name" placeholder="John Doe" required>
-      </div>
-      <div class="col-sm form-group">
-        <label for="Business">Business</label>
-        <input type="input" class="form-control" id="Business" placeholder="Acme Co" required>
-      </div>
-      <div class="col-sm form-group">
-        <label for="Phone">Phone</label>
-        <input type="number" class="form-control" id="Phone" placeholder="1233456789" required>
-      </div>
+      <a href="/order.php" class="btn btn-primary">Order Now</a>
     </div>
-    <div class="row">
-      <div class="col-sm form-group">
-        <label for="Email">Email</label>
-        <input type="email" class="form-control" id="Email" placeholder="John.Doe@Acme.co" required>
-      </div>
-    </div>
-
-    <hr />
-    <h4> Step 4: Review Selections</h4>
-    <div class="row">
-      <div class="col-sm bg-light border">
-        <h5>Address:</h5>
-        <p>
-          <span id="r_Address_1"></span><br />
-          <span id="r_Address_2"></span><br />
-          <span id="r_City"></span>, <span id="r_County"></span> <span id="r_Zipcode"></span><br />
-        </p>
-      </div>
-      <div class="col-sm bg-light border">
-        <h5>Services:</h5>
-        <span id="r_services"><span>
-      </div>
-      <div class="col-sm bg-light border">
-        <h5>Contact Info:</h5>
-        <p>
-          <span id="r_Name"></span><br />
-          <span id="r_Business"></span><br />
-          <span id="r_Phone"></span><br />
-          <span id="r_Email"></span>
-        </p>
-      </div>
-    </div>
-    
-    <hr />
-    <h4> Step 5: Submit</h4>
-    <div class="row">
-      <div class="col align-self-center" id="submitArea">
-        <input type="submit" class="btn btn-primary" id="submit_button"></input>
-      </div>
-    </div>
-  </form>
+  </div>
   <script>
     function selector(id) {
       var service = document.getElementById(id);

@@ -25,6 +25,8 @@
           <p>
             <a href="/index.php">Home</a><br />
             <a href="/services.php">Serivces</a><br />
+            <a href="/order.php">Order</a><br />
+            <a href="/register.php">Register</a><br />
           </p>
         </div>
       </div>
